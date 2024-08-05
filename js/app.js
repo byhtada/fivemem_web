@@ -65,5 +65,8 @@ Telegram.WebApp.onEvent('themeChanged', function() {
   document.body.setAttribute('style', '--bg-color:' + Telegram.WebApp.backgroundColor);
 });
 
+let console = eruda.get('console');
+console.log('eruda');
+
 console.log("initData ", Telegram.WebApp.initData)
 
