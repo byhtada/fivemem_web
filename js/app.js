@@ -69,7 +69,8 @@ let logger = eruda.get('console');
 
 function showUserInfo(){
   logger.log('eruda');
-  logger.log("initData ", Telegram.WebApp.initData)
+  logger.log("initData ", Telegram.WebApp.initDataUnsafe)
+  logger.log("initData user ", Telegram.WebApp.initDataUnsafe.user)
 
 }
 
